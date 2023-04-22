@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "test-bot"
+version = "0.1.0"
+description = ""
+authors = ["Rail <rail.akhmietshin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+poetry-dotenv = "^0.4.0"
+redis = "^4.5.4"
+aiogram = "3.0.0b7"
+bs4 = "^0.0.1"
+lxml = "^4.9.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
